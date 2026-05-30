@@ -1,0 +1,5 @@
+google-genai
+pandas
+PyMuPDF
+python-dotenv
+pillow

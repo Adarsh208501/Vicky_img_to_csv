@@ -1,0 +1,97 @@
+2026-05-07 14:06:57,639 - [INFO] - PHASE: Initialization - Setting up Multi-Model Engine (Primary: gemini-3.1-pro-preview)
+2026-05-07 14:06:58,159 - [INFO] - PHASE: Deployment - Processing 1 file(s)
+2026-05-07 14:06:58,159 - [INFO] - PHASE: File Analysis - 2.2.png
+2026-05-07 14:06:58,159 - [INFO] -   -> Image detected. Processing with PIL.
+2026-05-07 14:06:58,210 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-3.1-pro-preview
+2026-05-07 14:06:58,210 - [INFO] -   -> Attempt 1/3 for gemini-3.1-pro-preview
+2026-05-07 14:06:58,210 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:06:59,162 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-07 14:06:59,172 - [WARNING] -   -> gemini-3.1-pro-preview QUOTA HIT. Instant failover to high-availability engine...
+2026-05-07 14:06:59,172 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-07 14:06:59,175 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-3-pro-preview
+2026-05-07 14:06:59,176 - [INFO] -   -> Attempt 1/3 for gemini-3-pro-preview
+2026-05-07 14:06:59,177 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:06:59,178 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:06:59,814 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-07 14:06:59,816 - [WARNING] -   -> gemini-3-pro-preview QUOTA HIT. Instant failover to high-availability engine...
+2026-05-07 14:06:59,817 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-07 14:06:59,817 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-2.5-pro
+2026-05-07 14:06:59,817 - [INFO] -   -> Attempt 1/3 for gemini-2.5-pro
+2026-05-07 14:06:59,817 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:06:59,817 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:07:00,487 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-07 14:07:00,489 - [WARNING] -   -> gemini-2.5-pro QUOTA HIT. Instant failover to high-availability engine...
+2026-05-07 14:07:00,491 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-07 14:07:00,491 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-2.5-flash
+2026-05-07 14:07:00,491 - [INFO] -   -> Attempt 1/3 for gemini-2.5-flash
+2026-05-07 14:07:00,492 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:07:00,492 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:07:07,149 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-07 14:07:07,152 - [WARNING] -   -> SERVER BUSY (gemini-2.5-flash). Retrying in 10s...
+2026-05-07 14:07:17,154 - [INFO] -   -> Attempt 2/3 for gemini-2.5-flash
+2026-05-07 14:07:17,154 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:07:17,154 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:07:25,089 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-07 14:07:25,091 - [WARNING] -   -> SERVER BUSY (gemini-2.5-flash). Retrying in 10s...
+2026-05-07 14:07:35,092 - [INFO] -   -> Attempt 3/3 for gemini-2.5-flash
+2026-05-07 14:07:35,092 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:07:35,092 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:07:54,333 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-07 14:07:54,334 - [WARNING] -   -> SERVER BUSY (gemini-2.5-flash). Retrying in 10s...
+2026-05-07 14:08:04,336 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-07 14:08:04,337 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-2.0-flash
+2026-05-07 14:08:04,338 - [INFO] -   -> Attempt 1/3 for gemini-2.0-flash
+2026-05-07 14:08:04,339 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:08:04,340 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:08:05,098 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-07 14:08:05,100 - [WARNING] -   -> QUOTA HIT on gemini-2.0-flash. Waiting 15s...
+2026-05-07 14:08:20,102 - [INFO] -   -> Attempt 2/3 for gemini-2.0-flash
+2026-05-07 14:08:20,103 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:08:20,103 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:08:20,841 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-07 14:08:20,844 - [WARNING] -   -> QUOTA HIT on gemini-2.0-flash. Waiting 30s...
+2026-05-07 14:08:50,845 - [INFO] -   -> Attempt 3/3 for gemini-2.0-flash
+2026-05-07 14:08:50,845 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-07 14:08:50,845 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-07 14:08:51,572 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-07 14:08:51,575 - [WARNING] -   -> QUOTA HIT on gemini-2.0-flash. Waiting 45s...
+2026-05-07 14:09:36,576 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-07 14:09:36,578 - [WARNING] - PHASE: Output Generation - No data found.
+2026-05-17 11:50:01,572 - [INFO] - PHASE: Initialization - Setting up Multi-Model Engine (Primary: gemini-3.1-pro-preview)
+2026-05-17 11:50:02,337 - [INFO] - PHASE: Deployment - Processing 1 file(s)
+2026-05-17 11:50:02,337 - [INFO] - PHASE: File Analysis - 2.2.png
+2026-05-17 11:50:02,338 - [INFO] -   -> Image detected. Processing with PIL.
+2026-05-17 11:50:02,439 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-3.1-pro-preview
+2026-05-17 11:50:02,440 - [INFO] -   -> Attempt 1/3 for gemini-3.1-pro-preview
+2026-05-17 11:50:02,440 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:50:03,386 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:50:03,387 - [WARNING] -   -> gemini-3.1-pro-preview QUOTA HIT. Instant failover to high-availability engine...
+2026-05-17 11:50:03,388 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-17 11:50:03,388 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-3-pro-preview
+2026-05-17 11:50:03,388 - [INFO] -   -> Attempt 1/3 for gemini-3-pro-preview
+2026-05-17 11:50:03,389 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-17 11:50:03,390 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:50:04,069 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:50:04,071 - [WARNING] -   -> gemini-3-pro-preview QUOTA HIT. Instant failover to high-availability engine...
+2026-05-17 11:50:04,071 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-17 11:50:04,072 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-2.5-pro
+2026-05-17 11:50:04,072 - [INFO] -   -> Attempt 1/3 for gemini-2.5-pro
+2026-05-17 11:50:04,072 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-17 11:50:04,073 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:50:04,595 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:50:04,602 - [WARNING] -   -> gemini-2.5-pro QUOTA HIT. Instant failover to high-availability engine...
+2026-05-17 11:50:04,602 - [INFO] - PHASE: Failover - Moving to next engine...
+2026-05-17 11:50:04,603 - [INFO] - PHASE: AI Extraction - Targeting Model: gemini-2.5-flash
+2026-05-17 11:50:04,603 - [INFO] -   -> Attempt 1/3 for gemini-2.5-flash
+2026-05-17 11:50:04,604 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-17 11:50:04,605 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:50:38,011 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 11:50:38,035 - [INFO] - PHASE: Table Structural Analysis
+2026-05-17 11:50:38,035 - [ERROR] -   -> JSON Parse Error: Expecting value: line 826 column 7 (char 7350)
+2026-05-17 11:50:38,036 - [INFO] -   -> Attempt 2/3 for gemini-2.5-flash
+2026-05-17 11:50:38,036 - [INFO] -   -> TIP: Press Ctrl+C to skip this model and try a fallback engine.
+2026-05-17 11:50:38,037 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:50:59,322 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 11:50:59,324 - [INFO] - PHASE: Table Structural Analysis
+2026-05-17 11:50:59,326 - [INFO] -   -> Extracted 74 rows via Compact JSON.
+2026-05-17 11:50:59,389 - [INFO] - PHASE: Output Generation - SAVED: 2.2.csv

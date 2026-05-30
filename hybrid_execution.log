@@ -1,0 +1,98 @@
+2026-05-17 11:45:17,222 - [INFO] - === HYBRID EXTRACTION PIPELINE START: 2.2.png ===
+2026-05-17 11:45:17,222 - [INFO] - PHASE: OCR Scan - 2.2.png
+2026-05-17 11:45:17,222 - [INFO] - PHASE: OCR Initialization - Loading lightonai/LightOnOCR-2-1B (Local CPU)
+2026-05-17 11:46:45,742 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/processor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:45,775 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/processor_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:45,837 - [INFO] - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/processor_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:46,249 - [INFO] - HTTP Request: GET https://huggingface.co/api/models/lightonai/LightOnOCR-2-1B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:46,658 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/processor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:46,660 - [WARNING] - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-17 11:46:46,687 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/processor_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:47,067 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:47,379 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/chat_template.jinja "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:47,405 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/chat_template.jinja "HTTP/1.1 200 OK"
+2026-05-17 11:46:47,441 - [INFO] - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/chat_template.jinja "HTTP/1.1 200 OK"
+2026-05-17 11:46:47,784 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:48,125 - [INFO] - HTTP Request: GET https://huggingface.co/api/models/lightonai/LightOnOCR-2-1B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:48,500 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/processor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:48,527 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/processor_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:48,897 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:49,211 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/chat_template.jinja "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:49,237 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/chat_template.jinja "HTTP/1.1 200 OK"
+2026-05-17 11:46:49,626 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:49,905 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/processor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:49,928 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/processor_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:50,213 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:50,515 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/processor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:50,551 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/processor_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:50,838 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:51,163 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:51,188 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:51,217 - [INFO] - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:51,572 - [INFO] - HTTP Request: GET https://huggingface.co/api/models/lightonai/LightOnOCR-2-1B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:51,879 - [INFO] - HTTP Request: GET https://huggingface.co/api/models/lightonai/LightOnOCR-2-1B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-17 11:46:52,187 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/tokenizer.json "HTTP/1.1 302 Found"
+2026-05-17 11:46:52,556 - [INFO] - HTTP Request: GET https://huggingface.co/api/models/lightonai/LightOnOCR-2-1B/xet-read-token/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3 "HTTP/1.1 200 OK"
+2026-05-17 11:46:56,078 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/tokenizer.model "HTTP/1.1 404 Not Found"
+2026-05-17 11:46:56,361 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/added_tokens.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:56,387 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/added_tokens.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:56,414 - [INFO] - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/added_tokens.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:56,794 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:56,817 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:56,860 - [INFO] - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:58,331 - [INFO] - HTTP Request: GET https://huggingface.co/api/models/lightonai/LightOnOCR-2-1B "HTTP/1.1 200 OK"
+2026-05-17 11:46:58,741 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 11:46:58,766 - [INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:58,796 - [INFO] - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/lightonai/LightOnOCR-2-1B/7d6fa261386f8bde9576f8d8c6ad69b8565b48a3/config.json "HTTP/1.1 200 OK"
+2026-05-17 11:46:59,355 - [INFO] - HTTP Request: HEAD https://huggingface.co/lightonai/LightOnOCR-2-1B/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-05-17 11:54:05,939 - [WARNING] -   -> Local OCR Error: 'NoneType' object is not subscriptable
+2026-05-17 11:54:05,940 - [INFO] -   -> Stage 1 Fallback: Initiating Gemini Visual Character Recognition...
+2026-05-17 11:54:05,940 - [INFO] -   -> OCR via gemini-3.1-pro-preview (Attempt 1)
+2026-05-17 11:54:05,942 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:54:07,412 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:54:07,413 - [WARNING] -   -> Quota Hit (gemini-3.1-pro-preview). Waiting 20s...
+2026-05-17 11:54:27,416 - [INFO] -   -> OCR via gemini-3.1-pro-preview (Attempt 2)
+2026-05-17 11:54:27,418 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:54:28,351 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:54:28,364 - [WARNING] -   -> Quota Hit (gemini-3.1-pro-preview). Waiting 40s...
+2026-05-17 11:55:08,365 - [INFO] -   -> OCR via gemini-3.1-pro-preview (Attempt 3)
+2026-05-17 11:55:08,368 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:55:09,494 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:55:09,496 - [WARNING] -   -> Quota Hit (gemini-3.1-pro-preview). Waiting 60s...
+2026-05-17 11:56:09,497 - [INFO] -   -> OCR via gemini-3.1-pro-preview (Attempt 4)
+2026-05-17 11:56:09,500 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:56:10,609 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:56:10,612 - [WARNING] -   -> Quota Hit (gemini-3.1-pro-preview). Waiting 80s...
+2026-05-17 11:57:30,617 - [INFO] -   -> OCR via gemini-2.5-flash (Attempt 1)
+2026-05-17 11:57:30,624 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:57:59,724 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-17 11:57:59,747 - [INFO] -   -> Stage 1 Success via gemini-2.5-flash.
+2026-05-17 11:57:59,753 - [INFO] - PHASE: Stage 2 - Structural Refinement
+2026-05-17 11:57:59,755 - [INFO] -   -> Reasoning with gemini-2.0-flash (Pass 1)
+2026-05-17 11:57:59,756 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:57:59,915 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:58:09,921 - [INFO] -   -> Reasoning with gemini-2.0-flash (Pass 2)
+2026-05-17 11:58:09,921 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:58:10,238 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:58:20,243 - [INFO] -   -> Reasoning with gemini-2.0-flash (Pass 3)
+2026-05-17 11:58:20,247 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:58:20,575 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:58:30,580 - [INFO] -   -> Reasoning with gemini-3.1-pro-preview (Pass 1)
+2026-05-17 11:58:30,580 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:58:30,859 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:58:40,863 - [INFO] -   -> Reasoning with gemini-3.1-pro-preview (Pass 2)
+2026-05-17 11:58:40,863 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:58:41,120 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:58:51,123 - [INFO] -   -> Reasoning with gemini-3.1-pro-preview (Pass 3)
+2026-05-17 11:58:51,123 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:58:51,546 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:59:01,550 - [INFO] -   -> Reasoning with gemini-2.5-pro (Pass 1)
+2026-05-17 11:59:01,550 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:59:02,013 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:59:12,018 - [INFO] -   -> Reasoning with gemini-2.5-pro (Pass 2)
+2026-05-17 11:59:12,019 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:59:12,461 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:59:22,465 - [INFO] -   -> Reasoning with gemini-2.5-pro (Pass 3)
+2026-05-17 11:59:22,465 - [INFO] - AFC is enabled with max remote calls: 10.
+2026-05-17 11:59:22,737 - [INFO] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-17 11:59:32,742 - [ERROR] - === PIPELINE FAILURE: Extraction stalled at reasoning stage. ===
